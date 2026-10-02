@@ -25,4 +25,5 @@ No graded SDK diff merges before that tag.
 
 ## Still UNKNOWN
 
-Attestation schema. Verify key. Signature algorithm. Verify invocation. Where the gate records M_fc.
+Attestation schema: DRAFT at `schemas/provenance-attestation.v1.schema.json` — ProvenanceAttestation v1, not frozen, tag not cut.
+Verify key. Signature algorithm (draft default in the schema: Ed25519 — fixed at the tag, not here). Verify invocation. Where the gate records M_fc.
