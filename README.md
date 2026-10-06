@@ -2,9 +2,7 @@
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-Public witness repo for the AEGIS Day-30 gate (2026-10-27 23:59 America/Edmonton).
-
-Scope at the gate: this SDK, the pre-registered benchmark, and the smallest AEGIS slice that benchmark can score. Not the full agent OS.
+**Hash input pinned, stranger-runnable verification.** A public witness repo for the AEGIS Day-30 gate (2026-10-27 23:59 America/Edmonton): `sha256sum prereg/day30.md` after clone. Scope limited to this SDK, the pre-registered benchmark, and the smallest AEGIS slice the benchmark can score. Not the full agent OS.
 
 ## Witness rule
 
