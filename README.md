@@ -10,7 +10,7 @@ This is a public witness repo for the AEGIS Day-30 gate (cutoff 2026-10-27 23:59
 ## What it guarantees
 
 - **One hash input.** The witness is `prereg/day30.md` at tag `aegis-day30`. The hash is the SHA-256 of the raw file bytes (UTF-8, LF, no BOM, exactly one trailing newline). The hash line is not in the file.
-- **A stranger can recompute it.** One clone and one command, no account and no trust in this repo's author.
+- **A stranger can recompute it.** One clone and one command, with no account needed.
 - **A one-bit metric with a written falsifier.** The pre-registration defines M_fc. The gate passes only if a forged-signature attestation (TC-SIG-FORGE) is rejected, gets no partial trust, and returns no success status. The falsifier is stated in the file.
 
 ## Quickstart
